@@ -1,0 +1,7 @@
+c SAT: [1, 2, 3]
+c https://users.aalto.fi/~tjunttil/2022-DP-AUT/notes-sat/solving.html
+c (¬a ∨ b) ^ (¬a v c) ^ (a v ¬b v ¬c)
+p cnf 3 3
+-1 2 0
+-1 3 0
+1 -2 -3 0
